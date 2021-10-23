@@ -1,0 +1,15 @@
+{"intents": [
+
+  {"tag":  "greetings",
+  "patterns": ["hello", "hey", "hi", "good morning", "what's up?", "greetings"]
+  "responses": ["Hey!", "Hello!", "Hi!", "What can I do for you?", "What's poppin ma bre"]
+  },
+
+  {"tag":  "age",
+  "patterns": ["how old are you?", "what's your age?", "age?"]
+  "responses": ["22years!", "I'm 22 years old", "I'm 22 now"]
+  },
+
+  //ergänzen
+
+]}
