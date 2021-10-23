@@ -1,13 +1,23 @@
 {"intents": [
 
   {"tag":  "greetings",
-  "patterns": ["hello", "hey", "hi", "good morning", "what's up?", "greetings"]
+  "patterns": ["hello", "hey", "hi", "good morning", "what's up?", "greetings"],
   "responses": ["Hey!", "Hello!", "Hi!", "What can I do for you?", "What's poppin ma bre"]
   },
 
   {"tag":  "age",
-  "patterns": ["how old are you?", "what's your age?", "age?"]
-  "responses": ["22years!", "I'm 22 years old", "I'm 22 now"]
+  "patterns": ["how old are you?", "what's your age?", "age?"],
+  "responses": ["22 years!", "I'm 22 years old", "I'm 22 now"]
+  },
+
+  {"tag":  "name",
+  "patterns": ["what's your name?", "who are you?", "name?", "do you have a name?"],
+  "responses": ["Kekbot", "I'm the Kekbot", "My name is Kekbot"]
+  },
+
+  {"tag":  "school",
+  "patterns": ["When is the first lesson?", "when starts the first lesson?", "at which time starts the first lesson"],
+  "responses": ["At 7.55 am", "They start at 7.55 am", "7.55 am is the first lesson"]
   },
 
   //ergänzen
