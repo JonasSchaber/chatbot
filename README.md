@@ -1,4 +1,4 @@
-# chatbot 
+# AI Chatbot
 Bevor running:
 
 insert your own path in Chatbot.py (line 12) and training.py (line 19) of the intents.json file.
