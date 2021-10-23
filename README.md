@@ -7,6 +7,7 @@ Preperations:
 anywhere in the script or use the perpared coammands in line 13 and 14:
 
 nltk.download('wordnet')
+
 nltk.dowload('punkt')
 
 Run the Chatbot:
