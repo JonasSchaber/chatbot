@@ -10,9 +10,13 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
 
+# nltk.download('wordnet')
+# nltk.dowload('punkt')
+
 lemmatizer = WordNetLemmatizer()
 
-intents = json.loads(open('/Users/User/PycharmProjects/chatbot/intents.json').read())
+# IMPORTANT: insert your own path
+intents = json.loads(open('/Users/jonas/Downloads/chatbot-main/chatbot/intents.json').read())
 
 words = []
 classes = []
