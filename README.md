@@ -4,7 +4,7 @@ Preperations:
 1) Insert your own path in Chatbot.py (line 12) and training.py (line 19) of the intents.json file.
 
 2) Run these commands in training.py to dowload the modules. After it you can delet them. Paste theme 
-   anywhere in the script or use the perpared coammands in line 13 and 14:
+anywhere in the script or use the perpared coammands in line 13 and 14:
 
 nltk.download('wordnet')
 nltk.dowload('punkt')
